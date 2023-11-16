@@ -14,6 +14,6 @@ export class LoadingPage implements OnInit {
     setTimeout(() => {
       // Redirigir a la página "login"
       this.router.navigateByUrl('/login');
-    }, 10000); // 10000 milisegundos = 10 segundos
+    }, 9000); // 10000 milisegundos = 10 segundos
   }
 }
